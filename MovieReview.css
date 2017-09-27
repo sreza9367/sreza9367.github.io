@@ -1,19 +1,21 @@
 <head>
+<!-- This is the CSS for Movie Review page-->
 	<style>
 		h1 {
     		color: white;
     		font-family: Verdana;
    			font-size: 250%;
 		}
-	
+
+		<!-- This is for paragraph text -->
 		p {
 			color: maroon;
 			font-family: Verdana;
 			font-size: 80%;
 		}
     
-   
-    a { 
+		<!-- This is for links -->
+    		a { 
       font-size: 120%;
       font-family: Verdana;
     }
