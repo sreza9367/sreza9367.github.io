@@ -19,6 +19,17 @@
       font-size: 120%;
       font-family: Verdana;
     }
+
+		<!-- This is for tables -->
+		table, th, td {
+    		border: 2px solid black;
+    		border-collapse: collapse;
+		}
+	<!-- table padding -->
+		th, td {
+    padding: 5px;
+	}
+
   </style>
 <head>
   
