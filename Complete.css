@@ -2,34 +2,65 @@
 <!-- This is the CSS for all the pages-->
 	<style>
 		h1 {
-    		color: white;
-    		font-family: Verdana;
-   			font-size: 250%;
+    	color: white;
+    	font-family: Verdana;
+   		font-size: 250%;
+			text-align:center;
+			margin-top:10px;
 		}
 
 		<!-- This is for paragraph text -->
 		p {
 			color: maroon;
 			font-family: Verdana;
-			font-size: 80%;
+			font-size: 1100%;
+			text-align:center;
 		}
     
 		<!-- This is for links -->
-    		a { 
+    a { 
       font-size: 120%;
       font-family: Verdana;
     }
 
 		<!-- This is for tables -->
 		table, th, td {
-    		border: 2px solid black;
-    		border-collapse: collapse;
+    	border: 2px solid black;
+    	border-collapse: collapse;
 		}
-	<!-- table padding -->
+
+		<!-- table padding -->
 		th, td {
-    padding: 5px;
-	}
-#container{
+    	padding: 5px;
+		}
+
+		<-- This is the container style -->
+		#container { 
+			height:700px;
+			width:2000;
+		}
+
+		<-- This is the header container style -->
+		#header { 
+			background-color:#900C3F;
+			height:65px;
+			width:2000px;
+		}
+
+		<-- This is the menu container style -->
+		#menu {
+			background-color:#C70039;
+			height:550px;
+			width:200px;
+			float:left;
+		}
+
+		<-- This is the main content container style  -->
+		#content {
+			background-color:#FF8A8A;
+			height:550px;
+			width:1800px;
+		}
 
   </style>
 <head>
